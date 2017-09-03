@@ -1,0 +1,54 @@
+<resources>
+
+    <style name="BaseStyle" parent="Base.Style"/>
+
+    <!-- Base application theme. -->
+    <style name="Base.Style" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="EditTextBox">
+        <item name="android:padding">15dp</item>
+        <item name="android:background">@drawable/edittext_box</item>
+    </style>
+
+    <style name="ButtonBox">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_green</item>
+        <item name="android:background">@drawable/box_button</item>
+    </style>
+
+    <style name="TextViewRegister">
+        <item name="android:textColor">@color/text_light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewTitleInfo">
+        <item name="android:background">@color/background_gray</item>
+        <item name="android:text">@string/title_info</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">6dp</item>
+    </style>
+
+    <style name="TextViewCommonStyle">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewProfile">
+        <item name="android:textColor">@color/text_green</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="EditTextBoxProfile">
+        <item name="android:textColor">@color/text_dark</item>
+
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/edittext_box</item>
+    </style>
+
+</resources>

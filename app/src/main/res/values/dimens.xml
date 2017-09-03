@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_login">20dp</dimen>
+
+    <dimen name="margin_space_bottom">15dp</dimen>
+
+    <dimen name="margin_all_side">16dp</dimen>
+
+    <dimen name="dashboard_hi">20sp</dimen>
+
+</resources>

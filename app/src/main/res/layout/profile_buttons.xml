@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:textStyle="bold"
+            android:textColor="@color/text_green"
+            android:layout_weight="1"
+            android:text="@string/button_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:textStyle="bold"
+            android:textColor="@color/text_green"
+            android:layout_weight="1"
+            android:text="@string/button_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:textStyle="bold"
+        android:textColor="@color/text_green"
+        android:text="@string/button_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

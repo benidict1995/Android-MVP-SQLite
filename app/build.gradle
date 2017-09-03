@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    Map<String, String> buildTools = rootProject.ext.dependencies;
+
+    compileSdkVersion buildTools.sdkTools.compileSdkVersion
+    buildToolsVersion buildTools.sdkTools.buildToolsVersion
+    defaultConfig {
+        applicationId "com.dulce.benidict.android_mvpsqlite"
+        minSdkVersion buildTools.sdkTools.minSdkVersion
+        targetSdkVersion buildTools.sdkTools.targetSdkVersion
+        versionCode buildTools.sdkTools.versionCode
+        versionName buildTools.sdkTools.versionname
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+
+    Map<String, String> dependencies = rootProject.ext.dependencies;
+
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile dependencies.supportLibrary.appCompat
+    compile dependencies.supportLibrary.design
+    compile dependencies.butterKnife.butterknife
+    compile dependencies.butterKnife.butterknifeCompiler
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+}

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Android-MVP+SQLite</string>
+
+    <string name="hint_email_address">Email Address</string>
+    <string name="hint_password">Password</string>
+
+    <string name="button_login">Login</string>
+    <string name="button_register">Not a member? Sign up now.</string>
+    <string name="button_submit">Submit</string>
+
+    <string name="error_null">Please Enter Username and Password</string>
+    <string name="error_username_null">Please Enter Username</string>
+    <string name="error_password_null">Please Enter Password</string>
+    <string name="error_not_equal">Incorrect Username and Password</string>
+    <string name="error_username_not_equal">Incorrect Username</string>
+    <string name="error_password_not_equal">Incorrect Password</string>
+
+
+
+    <string name="successful_Login">Login Successfully</string>
+
+    <string name="register_first_name">Enter Firstname</string>
+    <string name="register_last_name">Enter Lastname</string>
+    <string name="register_email_address">Enter Email Address</string>
+    <string name="register_password">Enter Password</string>
+    <string name="register_phone_number">Enter Phone Number</string>
+    <string name="register_address">Enter Address</string>
+
+    <string name="fields_required">All Fields Required!</string>
+
+    <string name="register_successfully">Register Successfully!</string>
+    <string name="register_failed">Something wrong happened!</string>
+
+    <string name="update_successfully">Update data successfully!</string>
+    <string name="update_failed">Updating data failed!</string>
+
+
+    <string name="dashboard_hi">Hi!</string>
+
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="success_valid_email_password">Login Successful</string>
+
+
+    <string name="title_info">Account Info: </string>
+    <string name="title_hello">Hello: </string>
+    <string name="title_exam">Examination</string>
+
+    <string name="title_firsname">Firstname </string>
+    <string name="title_lastname"> Lastname </string>
+    <string name="title_address">   Address </string>
+    <string name="title_phone">Phone Number </string>
+    <string name="title_email">       Email </string>
+    <string name="title_password"> Password </string>
+
+    <string name="button_edit">Update</string>
+    <string name="button_delete">Delete Account</string>
+    <string name="button_logout">Logout</string>
+
+    <string name="delete_successful">Remove Account Successfully</string>
+    <string name="delete_failed">Something wrong happened!</string>
+</resources>
